@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordlist API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Wordlist API</h1>
+
+        <section id="what-is-api">
+            <h2>What is this API?</h2>
+	    <p>This API is a word list api this only serves as a wordlist checker.</p>
+        </section>
+
+        <section id="what-api-is-not">
+            <h2>What this API is not?</h2>
+	    <p>This API is NOT A DICTIONARY. This means it will not return definitions.</p>
+        </section>
+
+        <section id="how-can-help">
+            <h2>How can you help?</h2>
+	    <p><a href="https://paypal.me/waffreo">Donate to me!</a> I know this seems really shameless but high api volumes often becomes a problem for me, espcially since the cost of hosting comes out of my pocket! I am a broke student and I am trying to make sure this can work!</p>
+        </section>
+
+        <section id="how-to-use">
+            <h2>How to use:</h2>
+	    <code>// nodejs<br>// http://localhost:2000/api/?requestedWord=obvious<br><br><br>axios.request({<br>  method: "GET",<br>  url:"http://localhost:2000/api/?requestedWord=obvious"<br>}).then((response) => {<br>  console.log(response.data.existence)<br>})<br><br>// returns "true" boolean</code>
+        </section>
+    </div>
+
+</body>
+
+</html>
+

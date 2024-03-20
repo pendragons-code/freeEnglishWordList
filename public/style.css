@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #363d45;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #363d45;
+    border-radius: 5px;
+    border: 2px solid #61dafb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #61dafb;
+    text-align: center;
+}
+
+h2 {
+    color: #61dafb;
+}
+
+a {
+    color: #61dafb;
+}
+
+p {
+    color: #61dafb;
+}
+
+code {
+    display: block;
+    white-space: pre-wrap;
+    color: #90EE90;
+    padding: 10px;
+    margin: 0 0 10px 20px; /* Adjust the margin as per your preference */
+    background-color:#363d45; /* Background color for the code block */
+    border: 1px solid #61dafb; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    font-family: monospace; /* Use a monospace font for code */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+
