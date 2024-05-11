@@ -13,6 +13,8 @@
     "axios": "^1.6.8",
     "dotenv": "^16.4.5",
     "express": "^4.19.0",
-    "express-rate-limit": "^7.2.0"
+    "express-rate-limit": "^7.2.0",
+    "html-entities": "^2.5.2",
+    "xss": "^1.0.15"
   }
 }
